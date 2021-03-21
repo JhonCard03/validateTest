@@ -54,7 +54,7 @@ public class HomePage {
          wait = new WebDriverWait(driver,60);
 
         WebElement usr = wait.until(ExpectedConditions.elementToBeClickable(By.name("user")));
-        usr.clear();
+        usr.clear(); 
         usr.click();
         usr.sendKeys(user);
 
